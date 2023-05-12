@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    background: rgb(0, 0, 0,.7);
+    min-height: 600px;
+    min-width:1000px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.color-axis{
+    color:whitesmoke;
+}
+#tooltip{
+    visibility:hidden;
+    height:40px;
+    width:auto;
+    position:absolute;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width:200px;
+    border-radius:10px;
+}
